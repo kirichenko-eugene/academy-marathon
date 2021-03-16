@@ -269,7 +269,9 @@ ul li {
   justify-content: center;
 }
 
-.our-works-more p {
+.our-works-more a p {
+  display: inline;
+  color: #533738;
   font-size: 30px;
   line-height: 37px;
   padding: 0;
@@ -281,8 +283,12 @@ ul li {
 }
 
 .our-works-more a {
+  text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
+}
+.our-works-more p:hover {
+  text-decoration: underline;
 }
 
 /* team */
@@ -402,6 +408,11 @@ ul li {
   cursor: pointer;
 }
 
+.arrow:hover {
+  filter: contrast(1.3);
+  transition: filter 1s;
+}
+
 .arrow-left {
   align-self: center;
   margin-right: 29px;
@@ -456,6 +467,10 @@ ul li {
   padding: 0;
   margin-top: 4px;
   margin-bottom: 30px;
+}
+
+.request-field:active {
+  background-color: rgba(0, 0, 0, 0);
 }
 .request-field::placeholder {
   color: #f6ede9;

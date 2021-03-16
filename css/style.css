@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   color: #533738;
   background: #e5e5e5;
+  margin: 0 auto;
 }
 
 ul li {
@@ -312,12 +313,14 @@ ul li {
 }
 
 .how-work-list {
+  width: 1200px;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 285px);
   column-gap: 20px;
+  padding: 0;
 }
 
 .how-work-list-item {
